@@ -27,44 +27,41 @@
             <li><a href="./register.html">Register</a></li>
           </ul>
         </nav>
-        <div class="contact-us-header">
-          <h1>Contact Us</h1>
-          <p>Have questions or suggestions? Feel free to reach out to us!</p>
-        </div>
       </header>
 
-      <section class="contact-us-section">
-        <form action="#" method="post" class="contact-form">
-          <label for="name">Name:</label>
-          <input
-            class="input-area"
-            type="text"
-            id="name"
-            name="name"
-            required
-          />
+      <div class="sign-in-bg-image">
+        <section class="sign-in-section">
+          <div class="register-header">
+            <h1>Sign in</h1>
+            <span
+              >Don't have an account?
+              <a href="./register.html">Register now!</a></span
+            >
+          </div>
 
-          <label for="email">Email:</label>
-          <input
-            class="input-area"
-            type="email"
-            id="email"
-            name="email"
-            required
-          />
+          <form class="sign-in-form" action="#" method="post">
+            <label for="username">Username:</label>
+            <input
+              class="input-area"
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
 
-          <label for="message">Message:</label>
-          <textarea
-            class="text-area"
-            id="message"
-            name="message"
-            rows="6"
-            required
-          ></textarea>
+            <label for="password">Password::</label>
+            <input
+              class="input-area"
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
 
-          <input type="submit" value="Submit" class="submit-button" />
-        </form>
-      </section>
+            <input type="submit" value="Sign In" class="sign-in-button" />
+          </form>
+        </section>
+      </div>
 
       <footer class="footer">
         <div class="flex-row padding-footer">

@@ -80,6 +80,348 @@ a {
   transform: translate(-50%, -50%);
 }
 
+/*CONTACT US*/
+.contact-us-header {
+  text-align: center;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-us-section {
+  width: 45%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.input-area {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #472f1d;
+}
+
+.text-area {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.submit-button {
+  margin-top: 15px;
+  font-size: 16px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #c6ab97;
+  color: #472f1d;
+}
+
+/* REGISTER */
+.register-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  margin: 30px 170px 30px 170px;
+  /* margin-right: 200px;
+  margin-left: 200px; */
+  column-gap: 100px;
+}
+
+.image-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5%;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.register-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.register-info {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.register-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.register-header h1 {
+  font-size: 30px;
+}
+
+.register-header span {
+  text-align: center;
+}
+
+.contact-form,
+.register-form,
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.sign-in-button {
+  margin-top: 15px;
+  font-size: 16px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid;
+  background-color: #472f1d;
+  color: #c6ab97;
+}
+
+.submit-button:hover {
+  background-color: #472f1d;
+  color: #c6ab97;
+}
+.sign-in-button:hover {
+  background-color: #c6ab97;
+  color: #472f1d;
+}
+
+/* SINGLE POST */
+.post-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+.portrait-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.portrait-wrapper {
+  border: 8px solid white;
+  border-radius: 6px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.portrait-wrapper img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.portrait-author p {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.blog-post-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.blog-post-container h1 {
+  border-bottom: 3px solid #472f1d;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+.blog-post-container span {
+  align-self: flex-end;
+  font-style: italic;
+  font-size: 12px;
+  color: #a2a2a2;
+  padding-bottom: 8px;
+}
+
+.blog-post-container p {
+  background-color: #472f1d34;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 15px 10px 15px 10px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.blog-post-container p::first-letter {
+  font-size: 24px;
+}
+
+/* SIGN IN */
+.sign-in-bg-image {
+  background-image: url("/images-za-kurs/bg-login.jpg");
+  background-size: 100%;
+}
+
+.sign-in-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+  width: 40%;
+  background-color: #ffffff9b;
+  margin: 70px auto 70px auto;
+  padding: 30px 20px 40px 20px;
+  border-radius: 10px;
+}
+
+/* ABOUT */
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* SECTION 1 */
+.section-1 {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  padding: 70px 10% 70px 10%;
+  gap: 25px;
+}
+
+.section-2 img,
+.section-1 img {
+  width: 100%;
+  align-self: center;
+}
+
+.ab-post-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.title1 {
+  align-self: flex-end;
+}
+
+.ab-post-info p {
+  text-align: justify;
+  padding: 40px 0 20px 0;
+  margin-bottom: auto;
+}
+
+.ab-post-info a {
+  font-size: 14px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 18px;
+}
+
+.button-1:link,
+.button-1:visited {
+  align-self: flex-end;
+  background-color: rgba(72, 48, 30, 0.486);
+  color: #472f1d;
+  border: 1px solid #472f1d;
+}
+
+.button-1:hover,
+.button-1:active {
+  align-self: flex-end;
+  color: rgb(154, 142, 133);
+  background-color: #472f1d;
+}
+
+/* SECTION 2 */
+.section-2 {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  padding: 70px 10% 70px 10%;
+  gap: 25px;
+  background-color: rgba(72, 48, 30, 0.486);
+}
+
+.button-2:link,
+.button-2:visited {
+  align-self: flex-start;
+  color: #472f1d;
+  border: 1px solid #472f1d;
+}
+
+.button-2:hover,
+.button-2:active {
+  align-self: flex-start;
+  color: rgb(154, 142, 133);
+  background-color: #472f1d;
+}
+
+/* SECTION 3 */
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 15% 100px 15%;
+}
+
+.team-details {
+  padding: 20px 0 60px 0;
+  text-align: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 220px;
+  padding: 25px 25px 0 25px;
+  border-radius: 3%;
+  transition: all 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  transition: all 0.5s;
+}
+
+.card img {
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 100%;
+}
+
+.team-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.team-info span {
+  margin: 10px 0 5px 0;
+  font-size: 16px;
+}
+
+.team-info h3 {
+  font-size: 20px;
+}
+
+.team-info p {
+  color: #a3a3a3;
+}
+/* KRAJ ABOUT-US*/
+
 .bg-image h1 {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -269,6 +611,8 @@ section.description {
   padding: 18px 10%;
 }
 
+/* SCREEN SIZES */
+
 @media only screen and (max-width: 1020px) {
   .main {
     grid-template-columns: 1fr;
@@ -288,6 +632,24 @@ section.description {
   .aside-content {
     grid-row: span 1;
     margin: 42px 0;
+  }
+
+  /* REGISTER */
+  .register-container {
+    grid-template-columns: 1fr;
+  }
+
+  .image-wrapper {
+    display: none;
+  }
+
+  /* SINGLE POST */
+  .post-container {
+    grid-template-columns: 1fr;
+  }
+
+  .portrait-author {
+    padding: 0 20% 0 20%;
   }
 }
 
@@ -346,4 +708,78 @@ section.description {
     margin-right: 0;
     margin-bottom: 8px;
   }
+
+  /* ABOUT US */
+  .section-2,
+  .section-1 {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .section-2 img,
+  .section-1 img {
+    width: 100%;
+  }
+
+  .ab-post-info p {
+    padding: 20px 0 20px 0;
+  }
+
+  .section-3 h2 {
+    font-size: 28px;
+  }
+
+  /* CONTACT US */
+  .contact-us-section {
+    width: 100%;
+    padding: 0 10% 20px 10%;
+  }
+
+  .sign-in-bg-image {
+    background-size: cover;
+  }
+
+  /* SIGN IN */
+  .sign-in-section {
+    width: auto;
+    margin: 30px 10% 30px 10%;
+  }
+
+  /* REGISTER */
+  .register-container {
+    grid-template-columns: 1fr;
+    margin: 60px 10% 60px 10%;
+  }
+
+  .image-wrapper {
+    display: none;
+  }
+
+  /* SINGLE POST */
+  .post-container {
+    grid-template-columns: 1fr;
+  }
+
+  .portrait-author p {
+    font-size: 14px;
+  }
+
+  .portrait-author {
+    padding: 0;
+  }
+
+  .blog-post-container h1 {
+    border-top: 3px solid #472f1d;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .blog-post-container span {
+    font-size: 14px;
+  }
 }
+
+/* TAMNA BOJA #472f1d */
+/* SVIJETLA BOJA rgba(72, 48, 30, 0.486)*/
+/* SVIJETLA PUNA rgb(154, 142, 133) */

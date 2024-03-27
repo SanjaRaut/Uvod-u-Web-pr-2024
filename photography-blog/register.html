@@ -27,43 +27,65 @@
             <li><a href="./register.html">Register</a></li>
           </ul>
         </nav>
-        <div class="contact-us-header">
-          <h1>Contact Us</h1>
-          <p>Have questions or suggestions? Feel free to reach out to us!</p>
-        </div>
       </header>
 
-      <section class="contact-us-section">
-        <form action="#" method="post" class="contact-form">
-          <label for="name">Name:</label>
-          <input
-            class="input-area"
-            type="text"
-            id="name"
-            name="name"
-            required
+      <section class="register-container">
+        <div class="image-wrapper">
+          <img
+            class="register-img"
+            alt="team"
+            src="./images-za-kurs/team.jpg"
           />
+        </div>
+        <div class="register-info">
+          <div class="register-header">
+            <h1>Register</h1>
+            <p>
+              Already have an account?
+              <a href="./sign-in.html">Sign in here.</a>
+            </p>
+          </div>
 
-          <label for="email">Email:</label>
-          <input
-            class="input-area"
-            type="email"
-            id="email"
-            name="email"
-            required
-          />
+          <form action="#" method="post" class="register-form">
+            <label for="name">First name:</label>
+            <input
+              class="input-area"
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
 
-          <label for="message">Message:</label>
-          <textarea
-            class="text-area"
-            id="message"
-            name="message"
-            rows="6"
-            required
-          ></textarea>
+            <label for="last-name">Last name:</label>
+            <input
+              class="input-area"
+              type="text"
+              id="last-name"
+              name="last-name"
+              required
+            />
 
-          <input type="submit" value="Submit" class="submit-button" />
-        </form>
+            <label for="email">Email:</label>
+            <input
+              class="input-area"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+
+            <label for="password">Password:</label>
+            <input
+              class="input-area"
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+
+            <input type="submit" value="Sign In" class="sign-in-button" />
+          </form>
+        </div>
       </section>
 
       <footer class="footer">
