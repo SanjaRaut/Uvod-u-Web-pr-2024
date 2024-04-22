@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domaci 5</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="display">
+      <div class="letter-buttons">
+        <button class="button" id="q">Q</button>
+        <button class="button" id="w">W</button>
+        <button class="button" id="e">E</button>
+        <button class="button" id="a">A</button>
+        <button class="button" id="s">S</button>
+        <button class="button" id="d">D</button>
+        <button class="button" id="z">Z</button>
+        <button class="button" id="x">X</button>
+        <button class="button" id="c">C</button>
+      </div>
+      <div class="settings">
+        <div class="onOff power">
+          <span class="title">Power</span>
+          <div class="toggle-button">
+            <div class="left-square leftPwr hidden"></div>
+            <div class="right-square rightPwr"></div>
+          </div>
+        </div>
+        <div class="sound-type">Heater 2</div>
+        <div class="sound">
+          <span class="slider-volume">50</span>
+          <div class="slidercontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+        </div>
+        <div class="onOff">
+          <span class="title">Bank</span>
+          <div class="toggle-button">
+            <div class="left-square leftBnk"></div>
+            <div class="right-square rightBnk hidden"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/data.js"></script>
+  </body>
+</html>
