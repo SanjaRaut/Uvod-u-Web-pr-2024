@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photography Blog</title>
     <link rel="stylesheet" href="./styles/base.css" />
-    <link rel="stylesheet" href="./styles/single.css" />
+    <link rel="stylesheet" href="./styles/admin.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -28,7 +28,31 @@
         </nav>
       </header>
 
-      <div class="main padding-main" id="post-container"></div>
+      <div class="main padding-main main-login">
+        <section class="form-section">
+          <h1>Add new blog post</h1>
+          <form class="form" action="#" method="post">
+            <label for="image_link">Image link:</label>
+            <input type="url" id="image_link" name="image_link" required />
+
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required />
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required />
+
+            <label for="description">Description:</label>
+            <textarea
+              type="text"
+              id="description"
+              name="description"
+              required
+            ></textarea>
+
+            <input type="submit" value="Create" />
+          </form>
+        </section>
+      </div>
 
       <footer class="footer">
         <div class="flex-row padding-footer">
@@ -60,9 +84,7 @@
         </p>
       </footer>
     </div>
-    <script src="scripts/data.js"></script>
-    <script src="scripts/date.js"></script>
-    <script src="scripts/single.js"></script>
-    <script src="scripts/global.js"></script>
+
+    <script src="./scripts/global.js"></script>
   </body>
 </html>
