@@ -17,6 +17,8 @@ function generatePost(id, imageLink, title, date, description) {
     </div>`;
 }
 
+fetch();
+
 for (let i = 0; i < photographyBlogPosts.length; i++) {
   cardWrapperElement.innerHTML += generatePost(
     photographyBlogPosts[i].id,
